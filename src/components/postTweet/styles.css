@@ -1,0 +1,42 @@
+.t-post-tweet > img{
+    width: 10%;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.t-post-tweet input {
+    margin-left: 1em;
+    border: none;
+    font-size: 1.3em;
+    width: 100%;
+    display: block;
+}
+
+.t-post-tweet input:focus{
+    border: none !important;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.t-post-tweet form{
+    width: 100%;
+}
+
+.t-post-options{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.t-post-options > button{
+    background-color: rgb(29, 161, 242);
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.t-post-tweet .t-profile-img{
+    width: 10%;
+}

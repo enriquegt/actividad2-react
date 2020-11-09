@@ -1,0 +1,50 @@
+.tweet-container{
+    display: flex;
+    flex-direction: column;   
+    width: 100%;
+    padding: 0em 1em;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.c1 {
+    flex-basis: 7%;
+}
+
+.c1>img{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+
+.c2{
+    padding: 0px 15px;
+}
+
+.c2>h6{
+    text-align: left;
+    margin: 5px 0px;
+    font-size: 1.2em;
+}
+
+.row>.content{
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.icono {
+    color: white;
+}

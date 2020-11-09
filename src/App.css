@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-template-rows: 1fr;
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.t-logo{
+  width: 50%;
+  fill: rgba(29,161,242,1.00);
+}
+
+.t-main{
+  display: flex;
+  height: 100vh;
+}
+
+.t-col-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0em 1em;
+  align-items: flex-start;
+  width: 65%;
+  overflow: scroll;
+}
+
+.t-row{
+  display: flex;
+}
+
+.t-profile-img {
+  width: 50%;
+  justify-self: flex-end;
+}
+
+.t-profile-img > img{
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+}
+
+.t-sidebar-col{
+  border: 1px dashed #000;
+  width: 35%;
+  overflow: scroll;
+}

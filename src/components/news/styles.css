@@ -1,0 +1,34 @@
+.news-container{
+    display: flex;
+    flex-direction: column;   
+    width: 75%;
+    padding: 0em 1em;
+    margin: 0 auto;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.c1-news {
+    flex-basis: 7%;
+    padding: 0px 5px;
+    font-size: 0.75em;
+}
+
+.row>.content-news{
+    font-weight: bold;
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+.row>.number-tweets{
+    padding-left: 15%;
+    font-weight: bold;
+    color: rgb(29, 126, 187);
+    font-size: 0.7em;
+ 
+}

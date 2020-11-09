@@ -1,0 +1,13 @@
+.t-icon > svg{
+    color: rgb(20, 23, 26);
+}
+
+.t-icon:hover {
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    transition: .5s all;
+}
+
+.t-icon:hover > svg{
+    color: rgba(29,161,242,1.00);
+}
