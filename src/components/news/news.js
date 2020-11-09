@@ -18,7 +18,7 @@ class News extends React.Component{
                 </div>
                 <div className="row">                
                     <p className="number-tweets">
-                        {this.props.numberTweets} Tweets
+                        {this.props.numberTweets}
                     </p>
                 </div>
             </div>

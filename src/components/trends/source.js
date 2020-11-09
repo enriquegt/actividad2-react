@@ -1,19 +1,26 @@
 const feed = [
     {
-        category: "BBCBreaking",
-        title: `Prince William contracted Covid-19 in April at a similar time to his father Prince Charles, palace sources tell BBC
-        `,
-        noTweets: 590
+        category: "Biden - Trump",
+        title: "Joe Biden es el ganador proyectado de las elecciones presidenciales",
+        noTweets: "147,3 mil Tweets"
     },
+
     {
-        category: "NatGeo",
-        title: `What's the most soothing experience you've had in nature? (Bonus points if you have a photo or video)`,
-        noTweets: 10203
+        category: "Nintendo",
+        title: "Nintendo anuncia sus planes para el Black Friday en América con un bundle de Nintendo Switch, ofertas en juegos y más",
+        noTweets: "81,3 mil Tweets"
     },
+
     {
-        category: "Hipertextual",
-        title: `Cinco recomendaciones, y una sorpresa, para ver en Netflix en noviembre`,
-        noTweets: 34341
+        category: "COVID-19",
+        title: "Pfizer reporta que su proyecto de vacuna COVID-19 es eficaz en más de 90%",
+        noTweets: "3740 Tweets"
+    },
+
+    {
+        category: "Mexico Inundaciones",
+        title: "Inundaciones al sureste de México dejan al menos 27 personas muertas",
+        noTweets: "34,6 mil Tweets"
     }
 ];
 
