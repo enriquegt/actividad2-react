@@ -6,6 +6,8 @@
     margin: 0 auto;
     background: #f2f2f2;
     text-align: center;
+    border: solid rgba(103, 104, 105, 0.2) 1px;
+    border-radius: 2%;
 }
 
 .row {

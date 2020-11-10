@@ -4,11 +4,14 @@
     width: 100%;
     padding: 0em 1em;
     margin: 0 auto;
+    border: solid rgb(29, 161, 242, 0.2) 1px;
+    border-radius: 2%;
 }
 
 .row {
     display: flex;
     align-items: center;
+    
 }
 
 .c1 {
