@@ -1,6 +1,6 @@
 const feed = [
     {
-        category: "Biden - Trump",
+        category: "Biden-Trump",
         title: "Joe Biden es el ganador proyectado de las elecciones presidenciales",
         noTweets: "147,3 mil Tweets"
     },

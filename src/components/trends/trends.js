@@ -21,7 +21,7 @@ class Trends extends React.Component {
                    this.state.tweets.map( tweet => {
                         return (
                             <News
-                                profile={tweet.category}
+                                title={tweet.category}
                                 content={tweet.title}
                                 numberTweets={tweet.noTweets}
                                 />
