@@ -14,7 +14,10 @@ const feed = [
             likes: 126
         },
         verified: false,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 0
     },
     {
         profile: "Elon Musk",
@@ -29,7 +32,10 @@ const feed = [
             likes: 84000
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 1
     },
     {
         profile: "Google",
@@ -44,7 +50,10 @@ const feed = [
             likes: 693
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 2
     },
     {
         profile: "LeBron James",
@@ -58,7 +67,10 @@ const feed = [
             likes: 78800
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 3
     },
     {
         profile: "BBC Breaking News",
@@ -73,7 +85,10 @@ const feed = [
             likes: 4200
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 4
     },
     {
         profile: "NVIDIA GeForce",
@@ -89,7 +104,10 @@ const feed = [
             likes: 524
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 5
     },
     {
         profile: "National Geographic",
@@ -103,7 +121,10 @@ const feed = [
             likes: 434
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 6
     },
     {
         profile: "Hipertextual",
@@ -117,7 +138,10 @@ const feed = [
             likes: 4
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 7
     },
     {
         profile: "Hipertextual",
@@ -131,7 +155,10 @@ const feed = [
             likes: 4
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 8
     },{
         profile: "Real Madrid C.F.",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
@@ -145,7 +172,10 @@ const feed = [
             likes: 14900
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 9
     },
     {
         profile: "UEFA Champions League",
@@ -159,7 +189,10 @@ const feed = [
             likes: 818
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 10
     },
     {
         profile: "FC Barcelona",
@@ -176,7 +209,10 @@ const feed = [
             likes: 723
         },
         verified: true,
-        blocked: true
+        blocked: true,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 11
     },
     {
         profile: "Youtube",
@@ -190,7 +226,10 @@ const feed = [
             likes: 11300
         },
         verified: true,
-        blocked: true
+        blocked: true,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 12
     }
 ];
 
