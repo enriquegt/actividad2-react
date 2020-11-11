@@ -8,7 +8,7 @@ class News extends React.Component{
                 <div className="row">
                 
                     <div className="c1-news">
-                        {this.props.profile}
+                        {this.props.title}
                     </div>
                 </div>
                 <div className="row">
