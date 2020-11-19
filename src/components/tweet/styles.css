@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;   
     width: 100%;
-    padding: 0em 1em;
+    padding: 1em 1em;
     margin: 0 auto;
+    box-sizing: border-box;
     border: solid rgb(29, 161, 242, 0.2) 1px;
     border-radius: 2%;
+    position: relative;
 }
 
 .row {
@@ -35,7 +37,6 @@
 }
 
 .row>.content{
-    font-weight: bold;
     font-size: 1.3em;
     text-align: left;
 }
@@ -50,4 +51,76 @@
 
 .icono {
     color: white;
+}
+
+.tweet-options{
+    align-items: center;
+    justify-content: center;
+    height: 2vw;
+    width: 2vw;
+    position: absolute;
+    top: 9%;
+    right: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tweet-options-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.tweet-options:hover{
+    transition: .5s all;
+    background-color: rgba(29, 161, 242, 0.1);
+}
+
+.tweet-options:hover>svg{
+    stroke: rgb(29, 161, 242);
+}
+
+.tweet-options>svg{
+    width: 65%;
+}
+
+.tweet-options-menu {
+    position: absolute;
+    top: 3%;
+    right: 17%;
+    width: 30%;
+    padding: 1em .5em;
+    background-color: #e63b3b;
+    box-shadow: 1px 1px 7px #7b7b7b;
+    border-radius: 4px;
+    color: white;
+}
+
+.tweet-options-menu__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tweet-options-menu__row > svg{
+    width: 20%;
+}
+
+
+.message-options-menu {
+    position: absolute;
+    top: 3%;
+    right: 17%;
+    width: 30%;
+    padding: 1em .5em;
+    background-color: #037e32;
+    box-shadow: 1px 1px 7px #7b7b7b;
+    border-radius: 4px;
+    color: white;
+}
+
+.message-options-menu__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

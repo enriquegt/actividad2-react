@@ -1,5 +1,6 @@
 const feed = [
     {
+        showContextM: false,
         profile: "AJ + Español",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "ajplusespanol",
@@ -17,6 +18,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Elon Musk",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "elonmusk",
@@ -32,6 +34,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Google",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "google",
@@ -47,6 +50,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "LeBron James",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "KingJames",
@@ -61,6 +65,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "BBC Breaking News",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "BBCBreaking",
@@ -76,6 +81,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "NVIDIA GeForce",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "NVIDIAGeForce",
@@ -92,6 +98,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "National Geographic",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "NatGeo",
@@ -106,6 +113,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Hipertextual",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "Hipertextual",
@@ -120,6 +128,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Hipertextual",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "Hipertextual",
@@ -133,6 +142,7 @@ const feed = [
         verified: true,
         blocked: false
     },{
+        showContextM: false,
         profile: "Real Madrid C.F.",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "realmadrid",
@@ -148,6 +158,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "UEFA Champions League",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "ChampionsLeague",
@@ -162,6 +173,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "FC Barcelona",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "FCBarcelona_es",
@@ -179,6 +191,7 @@ const feed = [
         blocked: true
     },
     {
+        showContextM: false,
         profile: "Youtube",
         profileUrl: "https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg",
         username: "Youtube",

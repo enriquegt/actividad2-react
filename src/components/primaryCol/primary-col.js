@@ -6,10 +6,13 @@ const PrimaryCol = (props) => {
     return (
         <div className="t-col-container">
             <h3>Inicio</h3>
-            <PostTweet profileUrl={props.profileUrl} />
+           
             <Feed />
         </div>
     )
 }
 
 export default PrimaryCol;
+
+
+//<PostTweet profileUrl={props.profileUrl} /> 

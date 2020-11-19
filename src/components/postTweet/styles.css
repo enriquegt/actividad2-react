@@ -40,3 +40,7 @@
 .t-post-tweet .t-profile-img{
     width: 10%;
 }
+
+.pull-right text-muted {
+    right: 10%;
+}

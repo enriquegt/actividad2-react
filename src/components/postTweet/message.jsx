@@ -1,13 +1,8 @@
 import React from 'react';
 import './styles.css';
-import Icon from '../icon/icon';
-import {
-    ChatSolid,
-    ShareSolid,
-    CheckCircleSolid,
-    DotsHorizontalOutline
-} from "@graywolfai/react-heroicons";
-import ContextMenu from '../context-menu';
+import {DotsHorizontalOutline} from "@graywolfai/react-heroicons";
+import ContextMessage from '../contex-message';
+import moment from "moment";
 
 
 class Tweet extends React.Component{
@@ -15,11 +10,11 @@ class Tweet extends React.Component{
         return (
             <div className="tweet-container">
             <div className="tweet-options-container">
-                <div className="tweet-options" onClick={() => this.props.contextFn.toggleContextMenuFn(this.props.index)}>
+                <div className="tweet-options" onClick={() => this.props.contextFn2.toggleContextMenuFn2(this.props.index)}>
                     <DotsHorizontalOutline />
                 </div>
                 {
-                this.props.showContextM ? (<ContextMenu removeFn={this.props.contextFn.removetweetFn} index={this.props.index} />) :  null
+                this.props.showContextM2 ? (<ContextMessage removeFn={this.props.contextFn2.removeMessageFn} index={this.props.index} />) :  null
             }
             </div>
                     <div className="row">
@@ -37,14 +32,11 @@ class Tweet extends React.Component{
                         {this.props.content}
                     </p>
                 </div>
-                         
-                <div className="score">
-                <div className="icono"> <Icon source={< ChatSolid />}/> 000 </div> <div>  {this.props.interactionCommnets }    </div>
-                <div className="icono"> <Icon source={< ShareSolid />}/> 000 </div> <div> {this.props.interactionRetweets} </div>
-                <div className="icono"> <Icon source={<  CheckCircleSolid/>}/> 000 </div> <div> {this.props.interactionLikes} </div>
-                </div>     
-
-            </div>
+                <small className="pull-right text-muted">
+                <span className="glyphicon glyphicon-time"></span>
+                {moment(this.props.date).format("LT")}
+                </small>
+                </div>
         )
     }
 }
