@@ -40,10 +40,16 @@ class Tweet extends React.Component{
                          
                 <div className="score">
                 <div className="icono"> <Icon source={< ChatSolid />}/> 000 </div> <div>  {this.props.interactionCommnets }    </div>
+<<<<<<< HEAD
                 <div className="icono"> <Icon source={< ShareSolid />}/> 000 </div> <div> {this.props.interactionRetweets} </div>
                 <div className="icono"> <Icon source={<  CheckCircleSolid/>}/> 000 </div> <div> {this.props.interactionLikes} </div>
                 </div>     
 
+=======
+                <div className="icono" onClick={() => this.props.selectedRetweetsFn(this.props.index)}> <Icon source={< ShareSolid />}/> 000 </div> <div> {this.props.interactionRetweets} </div>
+                <div className="icono" onClick={() => this.props.selectedLikesFn(this.props.index)}> <Icon source={<  CheckCircleSolid/>}/> 000 </div> <div> {this.props.interactionLikes} </div>
+                </div>          
+>>>>>>> JC
             </div>
         )
     }

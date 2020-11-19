@@ -23,6 +23,7 @@ class Feed extends React.Component {
         }
     }
 
+<<<<<<< HEAD
     sendMessage = () => {
         //Copiamos el arreglo de mensajes
         // const messagesClone = [...this.state.messages];
@@ -86,6 +87,36 @@ class Feed extends React.Component {
     }
       
        
+=======
+    selectedRetweets = (index) => {
+        let tweetsClone = JSON.parse(JSON.stringify(this.state.tweets));
+
+        if (tweetsClone[index].selectedRetweets) {
+            tweetsClone[index].selectedRetweets = false;
+            tweetsClone[index].interaction.retweets = tweetsClone[index].interaction.retweets - 1;
+            this.setState({tweets: tweetsClone});
+        } else {
+            tweetsClone[index].selectedRetweets = true;
+            tweetsClone[index].interaction.retweets = tweetsClone[index].interaction.retweets + 1;
+            this.setState({tweets: tweetsClone});
+        }
+    }
+
+    selectedLikes = (index) => {
+        let tweetsClone = JSON.parse(JSON.stringify(this.state.tweets));
+
+        if (tweetsClone[index].selectedLikes) {
+            tweetsClone[index].selectedLikes = false;
+            tweetsClone[index].interaction.likes = tweetsClone[index].interaction.likes - 1;
+            this.setState({tweets: tweetsClone});
+        } else {
+            tweetsClone[index].selectedLikes = true;
+            tweetsClone[index].interaction.likes = tweetsClone[index].interaction.likes + 1;
+            this.setState({tweets: tweetsClone});
+        }
+    }
+
+>>>>>>> JC
     render() {
  
 
@@ -129,16 +160,22 @@ class Feed extends React.Component {
                             <Tweet
                                 index={index}
                                 profile={tweet.profile}
+                                index = {tweet.id}
                                 profileUrl={tweet.img}
                                 username={tweet.username}
                                 content={tweet.content}
                                 interactionCommnets={tweet.interaction.comments} 
                                 interactionRetweets={tweet.interaction.retweets}
                                 interactionLikes={tweet.interaction.likes}
+<<<<<<< HEAD
                                 showContextM={tweet.showContextM}
                                 contextFn={contextFn}
                                 
                             />
+=======
+                                selectedLikesFn={this.selectedLikes}
+                                selectedRetweetsFn={this.selectedRetweets}/>
+>>>>>>> JC
                         )
                     })
                 }

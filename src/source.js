@@ -15,7 +15,10 @@ const feed = [
             likes: 126
         },
         verified: false,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 0
     },
     {
         showContextM: false,
@@ -31,7 +34,10 @@ const feed = [
             likes: 84000
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 1
     },
     {
         showContextM: false,
@@ -47,7 +53,10 @@ const feed = [
             likes: 693
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 2
     },
     {
         showContextM: false,
@@ -62,7 +71,10 @@ const feed = [
             likes: 78800
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 3
     },
     {
         showContextM: false,
@@ -78,7 +90,10 @@ const feed = [
             likes: 4200
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 4
     },
     {
         showContextM: false,
@@ -95,7 +110,10 @@ const feed = [
             likes: 524
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 5
     },
     {
         showContextM: false,
@@ -110,7 +128,10 @@ const feed = [
             likes: 434
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 6
     },
     {
         showContextM: false,
@@ -125,7 +146,10 @@ const feed = [
             likes: 4
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 7
     },
     {
         showContextM: false,
@@ -140,7 +164,10 @@ const feed = [
             likes: 4
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 8
     },{
         showContextM: false,
         profile: "Real Madrid C.F.",
@@ -155,7 +182,10 @@ const feed = [
             likes: 14900
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 9
     },
     {
         showContextM: false,
@@ -170,7 +200,10 @@ const feed = [
             likes: 818
         },
         verified: true,
-        blocked: false
+        blocked: false,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 10
     },
     {
         showContextM: false,
@@ -188,7 +221,10 @@ const feed = [
             likes: 723
         },
         verified: true,
-        blocked: true
+        blocked: true,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 11
     },
     {
         showContextM: false,
@@ -203,7 +239,10 @@ const feed = [
             likes: 11300
         },
         verified: true,
-        blocked: true
+        blocked: true,
+        selectedRetweets: false,
+        selectedLikes: false,
+        id: 12
     }
 ];
 
